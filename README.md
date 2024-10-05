@@ -1,6 +1,5 @@
 
-https://github.com/user-attachments/assets/18479424-7c0a-48b6-9f5f-94df8332ca0d
-
+https://github.com/user-attachments/assets/7ae58898-a6ea-46f7-b832-1b7c13d19857
 
 # PetHood Financial App
 
@@ -38,6 +37,41 @@ This is a financial app that allows users to practice buying and selling stocks 
 
    - Users can browse stocks, select specific stocks to buy or sell, and add stocks to their watchlist for future reference.
    - Stocks are organized by sectors to help users explore different markets easily.
+
+## Running the Project
+
+To run this project locally, follow these steps:
+
+### 1. **Install Dependencies**
+   - Navigate to the `frontend` folder.
+   - Make sure you have `npm` installed. Then install the frontend dependencies by running the following command in the terminal:
+     ```bash
+     npm install
+     ```
+   - Next, navigate to the `backend` folder and install the required Python dependencies by running:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+### 2. **Running the Backend**
+   - Open the first terminal window (or a new tab in terminal) and navigate to the `backend` folder.
+   - Start the backend server by running:
+     ```bash
+     python app.py
+     ```
+   - This will start the backend server, which handles the logic and data processing for the app.
+
+### 3. **Running the Frontend**
+   - Open another terminal window (or another tab in terminal) and navigate to the `frontend` folder.
+   - Start the frontend development server by running:
+     ```bash
+     npm start
+     ```
+   - This will launch the app in your default web browser at `http://localhost:3000`. The frontend provides the user interface where you can interact with the stock market simulation.
+
+### 4. **Accessing the App**
+   - After running both the frontend and backend servers, you can visit the application in your browser at `http://localhost:3000`.
+   - From there, you can register for an account, log in, and start exploring the app's features.
 
 ## Technologies Used
 - **Frontend**: React.js
